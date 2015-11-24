@@ -1,0 +1,332 @@
+html,body{height:100%;}
+
+/* --------------------MAIN PART-------------------- */
+.main-part{
+	height: 100%;
+}
+.main-part .container-fluid{
+	height: 100%;
+	background-image: url("../img/main-theme.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+	margin-top: 50px;
+}
+.bs-example-modal-sm{
+	padding-right:0px !important;
+}
+.main-part .container-fluid .row{
+	background: rgba(0,0,0,0.4);
+    height: 100%;
+}
+.main-part .container-fluid .row .phone-call{
+	position: absolute;
+	right: 30px;
+	top: 70px;
+	display: inline-block;
+	z-index: 10;
+}
+.main-part .container-fluid .row .phone-call .btn-primary{
+	margin-top: 0px;  
+	font-size: 15px;
+    padding: 8px 15px;
+}
+.main-part .container-fluid .row .phone-call span{
+    display: block;
+    float: left;
+    line-height: 40px;
+    padding-right: 20px;
+}
+.phone-number{
+    font-size: 150%;
+    display: inline-block;
+    line-height: 34px;
+    color: white;
+	margin-right: 10px;
+}
+
+.main-part .container-fluid .row > div{
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 1px #000;
+	font-family: "Open Sans",Arial;
+}
+.main-part .container-fluid .row  .title-1{
+		padding-top: 1.2em;
+		line-height: 120%;    
+		font-weight: bold;
+	}
+	.main-part .container-fluid .row  .title-2{
+		margin-top: 1.2em;
+		line-height: 120%;
+		font-weight: normal;
+	}
+	.main-part .container-fluid .row  .btn-primary{
+		margin-top: 6em;
+		font-weight: bold;
+		box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	}
+.navbar-brand {
+		height: 80px;
+		width: 360px;
+	}
+@media (min-width: 992px) {
+	 .main-part .container-fluid .row  .title-1{
+		font-size: 60px;
+	}
+	.main-part .container-fluid .row  .title-2{
+		font-size: 36px;
+	}
+	.main-part .container-fluid .row  .btn-primary{
+		font-size: 24px;
+		padding: 8px 30px;
+	}
+	.navbar-brand > img {
+    width: 100%;
+    height: auto;
+	}
+	
+}
+@media (min-width: 1200px) {
+	.navbar-nav > li > a {
+    line-height: 56px;
+    font-size: 20px;
+	}
+	.phone-numbers {
+	float: right;
+    height: 80px;
+    padding-top: 6px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	 .main-part .container-fluid .row  .title-1{
+		font-size: 45px;
+	}
+	.main-part .container-fluid .row  .title-2{
+		font-size: 24px;
+	}
+	.main-part .container-fluid .row  .btn-primary{
+		font-size: 18px;
+		padding: 8px 24px;
+	}
+	.navbar-brand > img {
+		width: 100%;
+		height: auto;
+	}
+	
+}
+@media (max-width: 767px) {
+	 .main-part .container-fluid .row  .title-1{
+		font-size: 30px;
+	}
+	.main-part .container-fluid .row  .title-2{
+		font-size: 20px;
+	}
+	.main-part .container-fluid .row  .btn-primary{
+		font-size: 13px;
+		padding: 8px 12px;
+		margin-top: 7em;
+		font-weight: normal;
+	}
+	.navbar-brand {
+		width: 230px;		
+	}
+	.navbar-brand > img {
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+	.navbar-right > li > a {
+		padding-right: 25px;
+		text-align: right;
+	}
+	.phone-numbers {
+		float: right;
+		height: 80px;
+		padding-top: 6px;
+	}
+}
+@media (max-width: 1200px){
+	.navbar-brand {
+		height: 45px;
+		width: 232px;
+	}
+}
+
+/* ----------------ASSORTMENT--------------- */
+
+.assortment-image{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@media (max-width: 767px) {
+	.assortment-image{
+		width: 250px;
+		height: 200px;
+	}
+}
+.assortment .thumbnail{
+	text-align: center;
+	height: 550px;
+	padding-top: 20px;
+}
+.assortment .thumbnail .btn{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
+	font-weight: bold;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	letter-spacing: 1px;
+}
+.assortment .thumbnail .caption{
+	position: relative;
+    height: 335px;
+}
+.assortment h1, .advantages h1, .order h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.assortment h1, .advantages h1, .order h1{
+		font-size: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 767px) {
+	.assortment h1, .advantages h1, .order h1{
+		font-size: 24px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+.assortment h3{
+	margin-top: 15px;
+	font-weight: 400;
+}
+.price{
+	font-size: 28px;
+	margin-top: 35px;
+	display: block;
+}
+
+/* ----------------ADVANTAGES--------------- */
+
+.advantages .adv-pic{
+	width:100px;
+	height: 100px;
+	float: left;
+	background-size: cover;
+}
+@media (min-width: 768px){
+	.advantages .adv-text{	
+		vertical-align: middle;
+		display: table-cell;
+		height: 100px;
+		padding-top: 1px;
+		padding-left: 15px;
+	}
+}
+@media (max-width: 767px) {
+	.advantages .adv-text h3{
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.advantage{
+		border-bottom: 1px solid #dddddd;
+	}	
+}
+.advantages .advantage{
+	margin-bottom: 20px;
+}
+.advantages .adv-text h3{	
+    margin-top: 10px;
+}
+
+/* ----------------------ORDER------------------------ */
+
+.order-image{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.order {
+	text-align: center;
+}
+.order .caption h3{
+	font-weight: 400;
+}
+.order .thumbnail{
+	border: none;
+	margin-top: 30px;
+}
+.order .btn-primary{
+	font-weight: bold;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size: 24px;
+    padding: 8px 30px;
+	margin-bottom: 20px;
+}
+
+/* --------------FOOTER------------------ */
+
+.footer .navbar, .footer .container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-text{
+	width: inherit;
+	height: 50px;
+    vertical-align: middle;
+    display: table-cell;
+	font-size:18px;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
